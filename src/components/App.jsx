@@ -6,11 +6,7 @@ import transactions from "./transactions.json";
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
-// import { FriendListItem } from './FriendListItem/FriendListItem';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
-
-
-console.log(friends)
 
 export const App = () => {
   return (
