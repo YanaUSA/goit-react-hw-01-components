@@ -7,8 +7,6 @@ export const FriendList = ({ friends }) => {
     return (
         <ul className={css.friendList}> 
             {friends.map(({ avatar, name, isOnline, id }) => (
-
-
             <FriendListItem 
                 key={id}
                 avatar={avatar}
@@ -27,5 +25,5 @@ FriendList.propTypes = {
         avatar: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         isOnline: PropTypes.bool.isRequired, 
-    })),
+    })).isRequired,
 }
